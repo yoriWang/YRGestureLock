@@ -4,4 +4,4 @@
 
 ### 演示效果
 
-![gesutrePower](https://git.oschina.net/yoriwang/imagesources.git)
+![gesutrePower](https://git.oschina.net/yoriwang/imagesources/blob/master/Images/gesture1.gif)
