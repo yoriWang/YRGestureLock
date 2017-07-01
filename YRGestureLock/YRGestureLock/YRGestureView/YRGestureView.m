@@ -63,7 +63,6 @@ int const columnCount = 3;
         //九宫格布局
         int row = i / columnCount;//第几行
         int col = i % columnCount;//第几列
-//        NSLog(@"手势view的frame为--->%@", NSStringFromCGRect(self.frame));
         //边距
         CGFloat margin = (kScreenWidth - columnCount * btnW) / (columnCount + 1);
         //计算X轴
@@ -72,7 +71,7 @@ int const columnCount = 3;
         CGFloat btnY = row * (btnW + margin);
         btn.frame = CGRectMake(btnX, btnY, btnW, btnH);
         height = btnH + btnY;
-//        btn.backgroundColor = [UIColor grayColor];
+        
         [self addSubview:btn];
     }
     self.frame = CGRectMake(0, viewY, kScreenWidth, height);

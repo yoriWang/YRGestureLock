@@ -40,9 +40,8 @@
             
             MainViewController *mainVC = [[MainViewController alloc] init];
             mainVC.view.backgroundColor = [UIColor whiteColor];
+            
             UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
-//            mainVC.title = @"解锁后的主界面";
-//            [self presentViewController:naVC animated:YES completion:nil];
             [UIApplication sharedApplication].keyWindow.rootViewController = naVC;
         }];
         
